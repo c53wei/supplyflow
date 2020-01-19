@@ -1,5 +1,3 @@
-# supplyflow
-
 # Thank you for viewing our project!
 
 # In this depo, we included C# files that contain the pieces that code that produce our output. These files are divided up by class, and then further divided by method function. (All the names of the files are descriptive :) )
