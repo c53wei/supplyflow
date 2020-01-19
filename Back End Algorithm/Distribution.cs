@@ -28,9 +28,9 @@ namespace SupplyFlow
 
         public static void ReturnAmounts( OrganizationImportance[] sortedImportance, double sum, int donations ) 
         {
-            foreach( OrganizationImportance i in sortedImportance ) 
+            for( int i = 0; i < sortedImportance.Length; i ++ ) 
             {
-                WriteLine( $"{i.Name} should be given {(int)(donations*i.Importance/sum)} items.");
+                WriteLine( $"Rank: { i + 1 } {sortedImportance[ i ].Name} should be given {(int)(donations*sortedImportance[ i ].Importance/sum)} items.");
             }
         }
         public static void Distribute( Volunteer period )
