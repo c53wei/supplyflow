@@ -6,13 +6,19 @@ using System.IO;
 namespace SupplyFlow
 {
     partial class Program
-    {
+    {   
         static double A ( double rateOfDepletion, int initialValue )
         {
             double x =  (0 - initialValue)/rateOfDepletion;
             return x;
         }
-
+        /// <summary>
+        /// Calculates how 'important' i.e. how much an organization would benefit from donations
+        /// </summary>
+        /// <param name="currentOrg">Organization of interest</param>
+        /// <returns>
+        /// Numeric representation of importance
+        /// </returns>
         static double Importance( Organization currentOrg )
         {
             double x = A( currentOrg.RateOfDepletion, currentOrg.Inventory);

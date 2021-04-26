@@ -9,9 +9,10 @@ namespace SupplyFlow
     {      
         static void Main()
         {
-            Volunteer period = new Volunteer( "Period", 43.8561, -79.3370, 500, 50 );
-
-            Distribute( period );
+            // Example user configuration interface
+            Volunteer user = new Volunteer( "Victoria", 43.8561, -79.3370, 500, 50 );
+            // Calculate inventory distribution
+            Distribute( user );
         }
     }
 }
