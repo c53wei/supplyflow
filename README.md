@@ -11,6 +11,6 @@ In this repo, we included all C# files in [src](/src) which parses organization 
 - [Anushka Tandon](https://github.com/anushkatandon)
 - [Chelsea Huang](https://github.com/cx3huang)
 - [Clare Wei](https://github.com/c53wei)
-- Victoria Li
+- [Victoria Li](https://github.com/victorialiprojects)
 
 Thanks for having us, MLH!
